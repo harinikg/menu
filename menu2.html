@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  
+  h1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: white;
+    text-align: center;
+    margin-top: 250px;
+    text-shadow: 2px 2px 4px black;
+  }
+  body {
+    background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVzdGF1cmFudHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    height: 700px;
+    background-size: cover;
+  }
+  nav ul li {
+    color: rgb(232, 178, 50);
+    font-size: 20px;
+    display: inline;
+    margin: 5px;
+    gap: 500px;
+  }
+  nav ul {
+    margin-left: 10px;
+    padding: 0;
+  }
+  nav {
+    width: 100%;
+    height: 15vh;
+    background: rgba(0, 0, 0, 0.2);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  nav .logo {
+    width: 25%;
+    text-align: center;
+  }
+  nav .menu {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+  }
+  nav .menu a {
+    width: 25%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  nav .menu a:hover {
+    color: blue;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li a {
+    text-decoration: wavy;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid black;
+    box-shadow: 10px 10px 5px rgb(10, 10, 10);
+  }
+  ul {
+    list-style-type: none;
+    margin-top: 25px;
+  }
+  ul li {
+    display: inline-block;
+  }
+  ul li a:hover {
+    background-color: bisque;
+    color: black;
+  }
+  button {
+    border: solid 2px white;
+    width: 200px;
+    padding: 15px 0px;
+    background: transparent;
+    color: white;
+    border-radius: 25px;
+    margin: 20px 10px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    position: relative;
+    overflow: hidden;
+    margin-left: 650px;
+  }
+  button a {
+    text-decoration: none;
+    color: white;
+  }
+  button:hover {
+    background-color: black;
+  }
+
+  /* Media Query for smaller screens */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 50px;
+      margin-top: 100px;
+    }
+    nav .menu {
+      display: none;
+    }
+    nav .logo {
+      width: 100%;
+    }
+    nav .menu a {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+    button {
+      margin-left: 0;
+    }
+  }
+</style>
+</head>
+<style>
+  
+</style>
+<body>
+  <div class="sus">
+    <div class="logo"> <h1 style="font-size: 20px;"></h1> </div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="file:///C:/Users/harinikalyan/menu.html"><i>HOME</i></a></li>
+          <li><a href="C:\Users\harinikalyan\franchise.html"><i>FRANCHISE</i></a></li>
+          <li><a href="C:\Users\harinikalyan\events.html"><i>CATERING</i></a></li>
+        </ul>
+      </nav>
+    </div>
+    <h1>
+      Spice Symphony
+    </h1>
+    <button type="button"><a href="C:\Users\harinikalyan\orders.html">DINE-IN</a></button>
+    <button type="button"><a href="C:\Users\harinikalyan\orders.html">TAKE-AWAY</a></button>
+  </div>
+</body>
+</html>
